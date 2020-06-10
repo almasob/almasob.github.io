@@ -1,0 +1,64 @@
+body{
+  margin: auto  ;
+  background-image: url(macmac.jpg);
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: column;
+  align-items:  center; 
+  margin-top: 100px ;
+  background-color: rgba(205, 133 ,63,  0.5);
+}
+
+#enter, #userinput{
+  width: 20%;
+}
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.buscar{margin-left: 10px;
+        color:red;
+        font-weight: bold;
+        font-size: 10px;
+              }
+
+.fundolista{
+color: rgba(173,255,47,1);
+   font-size: 30px;
+}
+
+
+  h1 , p , input , button,li{
+      font-family:'Piedra', cursive;}
+
+
+h1{font-size: 60px;
+  text-decoration: underline; }
+
+p{font-size: 30px;}
+
+input{font-size: 20px;}
+
+button{font-size: 20px;}
