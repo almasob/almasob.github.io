@@ -58,7 +58,8 @@ color: rgba(173,255,47,1);
 h1{font-size: 60px;
   text-decoration: underline; }
 
-p{font-size: 30px;}
+p{font-size: 30px;
+line-height: 10px;}
 
 input{font-size: 20px;}
 
@@ -67,4 +68,5 @@ button{font-size: 20px;}
 .sub{
   font-size: 15px;
   background-color: yellow;
+  line-height: 10px;
 }
