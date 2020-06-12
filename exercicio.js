@@ -17,7 +17,7 @@ function createListElement() {
 		var riscado = li.classList.toggle("done");//aqui é: se clicar fica done, se clicar novamente fica sem DONE
 		var remover = document.createElement("button");//crio um botao
 		remover.classList.add("buscar");//adiciono a class ao botao
-		remover.appendChild(document.createTextNode("X"));//adiciono texto ao botao
+		remover.appendChild(document.createTextNode(""));//adiciono texto ao botao
 		if(riscado){
 		li.appendChild(remover);//se estiver RISCADO, eu add o botao ao LI
 		remover.addEventListener("click",function removerLista(){//aqui se eu clicar no BOTAO REMOVER 	
